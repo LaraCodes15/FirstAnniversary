@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game</title>
+    <style>
+        *{
+            font-family: 'Playfair Display SC', serif;
+
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #quiz-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #question-container {
+            margin: 20px 0;
+            color: #555;
+        }
+
+        #options-container button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #options-container button:hover {
+            background-color: #45a049;
+        }
+
+        #next-button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #next-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Best Girlfriend in the World Quiz</h1>
+        <div id="question-container"></div>
+        <div id="options-container"></div>
+        <button id="next-button">Next</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="game.js" ></script>
+</body>
+</html>

@@ -20,17 +20,17 @@ const quizQuestions = [
         correctAnswer: "Ramen"
     },
     {
-        question: "Which was never a pet of mine?",
+        question: "Which pet have I never owned?",
         options: ["Rabbit", "Hamster", "Dog", "Cat"],
         correctAnswer: "Cat"
     },
     {
-        question: "What is my favourite holiday?",
+        question: "Which one is my favourite holiday?",
         options: ["Christmas", "Halloween", "Eastern", "Thanksgiving"],
         correctAnswer: "Halloween"
         },
     {
-        question: "Which crystal did I buy on the flea market to help with our rough patch?",
+        question: "Which crystal have I bought on the flea market to help with our rough patch?",
         options: ["Aventurine", "Rose Quartz", "Labradorite", "Tiger Eye"],
         correctAnswer: "Tiger Eye"
     },

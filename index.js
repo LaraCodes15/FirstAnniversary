@@ -11,7 +11,7 @@ const game_introduction = "Now, I want to play a game with you 🤡...";
 const button_info = "Press the button when you're ready!"
 
 // calculate font size as a percentage of the window width, adding font settings
-const fontSizePercentage = 6; // Adjust this percentage as needed
+const fontSizePercentage = 4; // Adjust this percentage as needed
 const fontSize = (canvas.width * fontSizePercentage) / 100;
 ctx.font = `${fontSize}px 'Playfair Display SC', serif`; // Specify "Playfair Display SC" as the primary font and fallback to serif
 ctx.fillStyle = "yellow";
